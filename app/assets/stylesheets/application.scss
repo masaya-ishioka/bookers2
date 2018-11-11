@@ -13,18 +13,33 @@
  *= require_tree .
  *= require_self
  */
-@import "bootstrap-sprockets";
+ @import "bootstrap-sprockets";
 @import "bootstrap";
-body{
-	width:100%;
-	margin:auto;
-	padding:auto;
-	text-align:center;
+
+.img-circle{
+	border-radius:0;
 }
-a{
-	text-decoration: none;
+*{
+	margin:0;
+	padding:0;
+}
+div{
+	margin:0;
 }
 
+body{
+	width:100%;
+}
+
+.body{
+	text-align:center;
+}
+.width{
+	width:80%;
+}
+.table{
+	width:100%;
+}
 .header{
 	background-color:#000;
 	height: 50px;
@@ -32,9 +47,7 @@ a{
 	margin: 0 ;
 	padding: 0 ;
 }
-a{
-	color: #FFF;
-}
+
 .bookers{
 	padding:0 10px;
 	margin:0;
@@ -53,6 +66,9 @@ a{
 	text-align:center;
 	margin:0;
 }
+.btn-top a{
+	color:#fff;
+}
 .btn-group-vertical{
 	width:80%;
 	margin: 0 auto;
@@ -60,4 +76,33 @@ a{
 }
 small{
 	float:right;
+}
+.form_create{
+	width:90%;
+	margin:30px;
+}
+.before{
+	margin-top:10px;
+}
+
+.header a{
+	color: #FFF;
+	margin:0;
+	padding:0;
+	text-decoration: none;
+}
+.bookimage{
+	width:40px;
+	margin-right:100%;
+}
+.edit{
+	width:100%;
+	margin:30px;
+}
+.clear_fix{
+	clear:both;
+}
+.flash{
+	color:limegreen;
+	margin:10px 30px;
 }
